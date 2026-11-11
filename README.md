@@ -105,8 +105,6 @@ The samples are in `ring/samples/UsingWinUTF8Path`.
 | `test07_list_all_files.ring` | List the files in a folder and its sub folders using `w_dir()` |
 | `test08_unit_tests.ring` | Unit tests (Cyrillic, Arabic, Chinese, Greek and emoji names, and edge cases) for all platforms |
 
-On Linux and macOS both columns are the same.
-
 ## License
 
 MIT License
