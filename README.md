@@ -24,7 +24,9 @@ This package provides the same file processing functions with the `w_` prefix: `
 
 	ringpm install winutf8path from ringpackages
 
-The package includes `ring_winutf8path.dll` (64-bit) for MS-Windows. On Linux and macOS, build the extension (see [Building the Extension](#building-the-extension)).
+The package includes `ring_winutf8path.dll` (64-bit) for MS-Windows. 
+
+On Linux and macOS, build the extension from the source code.
 
 ## Quick Start
 
