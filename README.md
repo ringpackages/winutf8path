@@ -4,7 +4,7 @@
 
 WinUTF8Path package for the Ring programming language
 
-This package provides the same functions with the `w_` prefix: `w_dir()`, `w_rename()`, `w_remove()`, `w_getfilesize()`, ... On MS-Windows they convert the path from UTF-8 to UTF-16, call the wide character Windows API (`...W` functions), and return file names and folders as UTF-8. On Linux and macOS, where file paths are already UTF-8, they use the ANSI C/POSIX functions like the Ring functions do.
+This package provides the same file processing functions with the `w_` prefix: `w_dir()`, `w_rename()`, `w_remove()`, `w_getfilesize()`, ... On MS-Windows they convert the path from UTF-8 to UTF-16, call the wide character Windows API (`...W` functions), and return file names and folders as UTF-8. On Linux and macOS, where file paths are already UTF-8, they use the ANSI C/POSIX functions like the Ring functions do.
 
 ## Features
 
