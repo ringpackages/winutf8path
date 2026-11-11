@@ -18,7 +18,7 @@ This package provides the same file processing functions with the `w_` prefix: `
 - Paths that contain `char(0)` raise an error (the C functions would stop at it and use another path)
 - The same parameters, return values and error messages as the Ring functions, so `dir()` becomes `w_dir()` without other changes
 - Extra functions: `w_removedir()`, `w_copyfile()`, `w_sysargv()`
-- Tested on MS-Windows and Linux, including memory checks (a checking allocator, AddressSanitizer and UBSan) and fuzzing. The macOS and FreeBSD code compiles without warnings.
+- Tested on MS-Windows and Linux.
 
 ## Installation
 
