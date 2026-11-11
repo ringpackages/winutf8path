@@ -52,6 +52,22 @@ w_remove("Обучение/Ёжик.txt")
 w_removedir("Обучение")
 ```
 
+## Samples
+
+The samples are in `ring/samples/UsingWinUTF8Path`.
+
+| Sample | Description |
+|--------|-------------|
+| `test01_w_functions.ring` | Using the `w_*()` functions with Cyrillic file and folder names |
+| `test02_compare_functions.ring` | The Ring functions vs the `w_*()` functions |
+| `test03_folders.ring` | Nested folders, `w_chdir()`, `w_currentdir()`, `w_removedir()` |
+| `test04_environment.ring` | Environment variables and `w_system()` |
+| `test05_sysargv.ring` | Command line arguments as UTF-8 (run it with arguments, for example `ring test05_sysargv.ring Привет مرحبا`) |
+| `test06_long_paths.ring` | Paths with more than 260 characters |
+| `test07_list_all_files.ring` | List the files in a folder and its sub folders using `w_dir()` |
+| `test08_unit_tests.ring` | Unit tests (Cyrillic, Arabic, Chinese, Greek and emoji names, and edge cases) for all platforms |
+
+
 ## API Reference
 
 ### Functions like the Ring functions
@@ -88,21 +104,6 @@ w_removedir("Обучение")
 | `w_copyfile(cSource, cDestination)` | Copy a file (the destination is replaced if it exists); return `1` on success, `0` on failure (also when the source is a folder, or the source and the destination are the same file) |
 | `w_iswidepathapi()` | Return `1` if the functions use the wide character Windows API (MS-Windows), `0` on other platforms |
 | `w_version()` | Return the library version (`"1.0.0"`) |
-
-## Samples
-
-The samples are in `ring/samples/UsingWinUTF8Path`.
-
-| Sample | Description |
-|--------|-------------|
-| `test01_w_functions.ring` | Using the `w_*()` functions with Cyrillic file and folder names |
-| `test02_compare_functions.ring` | The Ring functions vs the `w_*()` functions |
-| `test03_folders.ring` | Nested folders, `w_chdir()`, `w_currentdir()`, `w_removedir()` |
-| `test04_environment.ring` | Environment variables and `w_system()` |
-| `test05_sysargv.ring` | Command line arguments as UTF-8 (run it with arguments, for example `ring test05_sysargv.ring Привет مرحبا`) |
-| `test06_long_paths.ring` | Paths with more than 260 characters |
-| `test07_list_all_files.ring` | List the files in a folder and its sub folders using `w_dir()` |
-| `test08_unit_tests.ring` | Unit tests (Cyrillic, Arabic, Chinese, Greek and emoji names, and edge cases) for all platforms |
 
 ## License
 
