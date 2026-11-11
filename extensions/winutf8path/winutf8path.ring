@@ -1,6 +1,5 @@
 /*
 	WinUTF8Path - UTF-8 file paths on MS-Windows for the Ring Programming Language
-	Copyright (c) 2026 Mahmoud Fayed <msfclipper@yahoo.com>
 
 	The w_*() functions (written in C) work on all platforms
 	On MS-Windows they support UTF-8 paths (Cyrillic, Arabic, Chinese, ...)
