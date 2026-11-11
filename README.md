@@ -56,7 +56,6 @@ w_removedir("Обучение")
 
 ### Functions like the Ring functions
 
-Each function has the parameters, return value and error messages of the Ring function with the same name (without `w_`).
 
 | Function | Ring Function | Description |
 |----------|---------------|-------------|
