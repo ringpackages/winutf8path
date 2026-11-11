@@ -16,7 +16,7 @@ This package provides the same functions with the `w_` prefix: `w_dir()`, `w_ren
 - Long paths: when the full path has 248 characters or more, the `\\?\` prefix is added automatically, so paths longer than 260 characters work (except in `w_chdir()`)
 - Strings that are not valid UTF-8 are read in the ANSI code page (like the Ring VM), so old code keeps working
 - Paths that contain `char(0)` raise an error (the C functions would stop at it and use another path)
-- The same parameters, return values and error messages as the Ring functions, so `dir()` becomes `w_dir()` without other changes (see [Differences from the Ring Functions](#differences-from-the-ring-functions))
+- The same parameters, return values and error messages as the Ring functions, so `dir()` becomes `w_dir()` without other changes
 - Extra functions: `w_removedir()`, `w_copyfile()`, `w_sysargv()`
 - Tested on MS-Windows and Linux, including memory checks (a checking allocator, AddressSanitizer and UBSan) and fuzzing. The macOS and FreeBSD code compiles without warnings.
 
